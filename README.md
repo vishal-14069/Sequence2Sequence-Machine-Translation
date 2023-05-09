@@ -23,6 +23,3 @@ The model consists of an encoder and a decoder. The encoder is a 2-layer GRU net
 
 ## Results
 The model was trained on a parallel corpus of English and French sentences for 10 epochs. The final validation loss was 1.21. The model was able to translate English sentences to French with a BLEU score of 38.5.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
