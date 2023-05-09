@@ -2,7 +2,7 @@
 
 # Seq2Seq Machine Translation using TensorFlow 2.x
 
-This repository contains an implementation of a sequence-to-sequence model for machine translation using TensorFlow 2.x. The model is trained on parallel corpora of English and French sentences and can translate English sentences to French.
+This repository contains an implementation of a sequence-to-sequence model for machine translation using TensorFlow 2.x. The model is trained on parallel corpora of English and French sentences and can translate French sentences to English.
 
 ## Data
 The parallel corpora used in this project are directly accessible by using the datasets API. There are 233K train rows, 8.6K test rows and 890 validation rows
