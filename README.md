@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Model Architecture
-The model consists of an encoder and a decoder. The encoder is a 2-layer GRU network with an attention mechanism. The decoder is also a 2-layer GRU network with an attention mechanism. The input to the decoder at each timestep is a concatenation of the embedded input token and the context vector.
+The model consists of an 2 layer GRU encoder and a 2 layer GRU decoder.The input to the decoder at each timestep is a concatenation of the embedded input token and the context vector.
 
 ## Results
 The model was trained on a parallel corpus of English and French sentences for 15 epochs. The final validation loss was 4.01. The model was able to translate English sentences to French with a BLEU score of 7.26.
